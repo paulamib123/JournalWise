@@ -51,7 +51,7 @@ This project classifies journal entries into one of the following five distortio
 6. Handles data balance with data augmentation techniques using nlpaug
 7. Implements SVM model to classify cognitive distortions 
 8. Deploys ML model with FastAPI and UI built with Streamlit
-9. Uses Gemini API to reframe thoughts positively.
+9. Uses Gemini API to reframe thoughts positively
 
 ## 🖼️ Project Screenshot
 
