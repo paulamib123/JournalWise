@@ -1,7 +1,7 @@
 # JournalWise
 Cognitive Distortion Detection in Journal Entries
 
-JournalWise is a project that explores detecting cognitive distortions in user-generated text, such as journal entries or Reddit posts. Cognitive distortions are recurring, biased ways of thinking that can reinforce negative thoughts, emotions, and behaviors.
+JournalWise is a project that explores detecting cognitive distortions in user-generated text, such as journal entries. Cognitive distortions are recurring, biased ways of thinking that can reinforce negative thoughts, emotions, and behaviors.
 
 By combining NLP preprocessing, data augmentation, and machine learning models, this notebook builds a model to classify distorted thinking patterns. I have also deployed the model with FastAPI and created a UI with streamlit.
 
@@ -43,14 +43,15 @@ This project classifies journal entries into one of the following five distortio
     ➡️ none
 
 ## 🚀 Full Stack ML pipeline
-1. Scrapes text data from Reddit using praw
+1. Scrapes text data related to mental health / journal entries from Reddit using the RedditAPI
 2. Labels text data using rule based methods and LLMs
-3. Preprocesses and cleans text data (nltk)
+3. Preprocesses and cleans text data using NLTK
 4. Performs exploratory data analysis (EDA)
 5. Implements a baseline Logistic Regression Moddel model for classification
-6. Handles data balance with data augmentation techniques (nlpaug)
+6. Handles data balance with data augmentation techniques using nlpaug
 7. Implements SVM model to classify cognitive distortions 
 8. Deploys ML model with FastAPI and UI built with Streamlit
+9. Uses Gemini API to reframe thoughts positively.
 
 ## 🖼️ Project Screenshot
 
