@@ -47,10 +47,10 @@ This project classifies journal entries into one of the following five distortio
 2. Labels text data using rule based methods and LLMs
 3. Preprocesses and cleans text data using NLTK
 4. Performs exploratory data analysis (EDA)
-5. Implements a baseline Logistic Regression Moddel model for classification
-6. Handles data balance with data augmentation techniques using nlpaug
+5. Implements a baseline Logistic Regression Moddel model to classify cognitive distortions
+6. Handles data imbalance with data augmentation techniques using nlpaug
 7. Implements SVM model to classify cognitive distortions 
-8. Deploys ML model with FastAPI and UI built with Streamlit
+8. Deploys ML model with FastAPI and UI is built with Streamlit
 9. Uses Gemini API to reframe thoughts positively
 
 ## 🖼️ Project Screenshot
