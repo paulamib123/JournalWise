@@ -42,7 +42,7 @@ This project classifies journal entries into one of the following five distortio
     If a journal entry does not fit into any of the above categories, the model returns:
     ➡️ none
 
-## 🚀 Full stack ML pipeline
+## 🚀 Full Stack ML pipeline
 1. Scrapes text data from Reddit using praw
 2. Labels text data using rule based methods and LLMs
 3. Preprocesses and cleans text data (nltk)
